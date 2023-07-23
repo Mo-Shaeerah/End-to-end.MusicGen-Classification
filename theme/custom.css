@@ -1,0 +1,19 @@
+body {
+    color: hwb(210 7% 92%);
+    background-color: #343a40;
+  }
+  
+  .stButton button {
+    background-color: #495057;
+    color: #f8f9fa;
+  }
+  
+  .stTextInput, .stTextArea, .stFileUploader label, .stFileUploader .stButtonText {
+    color: #f8f9fa;
+    background-color: #495057;
+  }
+  
+  .stSelectbox label, .stTextArea label, .stFileUploader .stLabel {
+    color: #f8f9fa;
+  }
+  
