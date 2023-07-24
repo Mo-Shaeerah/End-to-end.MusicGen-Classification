@@ -16,8 +16,7 @@ st.markdown('<link href="theme/custom.css" rel="stylesheet">', unsafe_allow_html
 #
 st.title("`Music Genere Classification App🎸`")
 
-# display a picture
-#st.image('Images/project-image.png')#, use_column_width=True)
+# display the video
 st.video('Images/vid2.mp4')
 
 # Load music genre classification data
