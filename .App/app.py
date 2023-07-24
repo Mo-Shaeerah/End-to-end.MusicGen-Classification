@@ -17,7 +17,8 @@ st.markdown('<link href="theme/custom.css" rel="stylesheet">', unsafe_allow_html
 st.title("`Music Genere Classification App🎸`")
 
 # display a picture
-st.image('Images/pic1.jfif', use_column_width=True)
+#st.image('Images/project-image.png')#, use_column_width=True)
+st.video('Images/vid2.mp4')
 
 # Load music genre classification data
 data = pd.read_csv('Data/train.csv', index_col= "Id")
