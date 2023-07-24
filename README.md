@@ -1,3 +1,3 @@
 # `End-to-end.MusicGen-Classification`
 
- <img src="Images/pic1.jfif" alt="Image" width="100%">
+ <img src="Images/project-image.png" alt="Image" width="100%">
