@@ -1,4 +1,4 @@
-# `End-to-end.MusicGen-Classification`
+# `End-to-end.MusicGen-Classification 🎭`
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://end-to-end-classification-by-mo-sa-shaeerah.streamlit.app/)
 
