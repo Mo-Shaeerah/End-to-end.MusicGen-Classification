@@ -424,6 +424,19 @@ model.fit(X, y)
 classification_result = model.predict(test)
 st.write(classification_result)
 
+genre_mapping = {
+    0: "Blues 🎶",
+    1: "Classical 🎼",
+    2: "Country 🎷",
+    3: "Disco 🎸",
+    4: "Hip-hop 🧑🏾‍🎤",
+    5: "Jazz 📯",
+    6: "Metal 🧑‍🎤",
+    7: "Pop 🥁",
+    8: "Reggae 🪕",
+    9: "Rock 🕺",
+    10: "World 🎻"
+    }
 
 st.sidebar.header("`4- Predict Classes Section 🧎`")
 # Simulate a prediction button
@@ -434,10 +447,12 @@ if st.sidebar.button("Predict Music Genre Class 🛎️"):
                            valence, tempo, duration, time_signature]])
     # Make the prediction
     prediction = model.predict(test_data)    
-    predicted_genre = str(prediction[0])
-
+    predicted_genre_class = prediction[0]
+    
+    predicted_genre_name = genre_mapping.get(predicted_genre_class)
+    
     # Show the result
     st.header("`Prediction Result 🧵`")
-    st.success("Predicted Music Genre 🧱: " + predicted_genre)
+    st.success(f"Predicted Music Genre 🧱: {predicted_genre_class}  → Means → {predicted_genre_name}")
     st.sidebar.header("`Prediction Result 🧵`")
-    st.sidebar.success("Predicted Music Genre 🧱: " + predicted_genre)
+    st.sidebar.success(f"Predicted Music Genre 🧱: {predicted_genre_class}  → Means → {predicted_genre_name}")
