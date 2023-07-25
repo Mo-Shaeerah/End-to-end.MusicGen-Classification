@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 from sklearn.ensemble import RandomForestClassifier
 
-# Import custom CSS for dark theme
+# 2- Import custom CSS for dark theme
 st.markdown('<link href="theme/custom.css" rel="stylesheet">', unsafe_allow_html=True)
 
 #
@@ -19,11 +19,11 @@ st.title("`Music Genere Classification App🎸`")
 # display the video
 st.video('Images/vid2.mp4')
 
-# Load music genre classification data
+# 3- Load music genre classification data
 data = pd.read_csv('Data/train.csv', index_col= "Id")
 #data
 
-# Sidebar with features
+# 4- Sidebar with features
 st.sidebar.title('`App Components 🧩💠`')
 st.sidebar.header("`1- Select A Feature To View 🧬`")
 selected_feature = st.sidebar.selectbox('Features', data.columns)
@@ -356,7 +356,7 @@ if st.sidebar.checkbox('Show acousticness'):
                     color='deeppink', ax=ax["E"], notch=True, medianprops={"color": "w"})
     st.pyplot(fig)
 
-# Multiclassification task
+# 5- Multiclassification task
 st.header('`Music Genre Classification ✂️`')
 def perform_feature_engineering(data):
     # Fill missing values in 'Popularity' column with mean
@@ -417,7 +417,7 @@ with col2:
     duration = st.slider('Duration', 1, 20000, 100)
     time_signature = st.slider('Time Signature', 1, 5, 1)
 
-# multiclassification model code
+# 6- multiclassification model code
 model = RandomForestClassifier()
 model.fit(X, y)
 
@@ -438,6 +438,7 @@ genre_mapping = {
     10: "World 🎻"
     }
 
+# 
 st.sidebar.header("`4- Predict Classes Section 🧎`")
 # Simulate a prediction button
 if st.sidebar.button("Predict Music Genre Class 🛎️"):
