@@ -457,3 +457,19 @@ if st.sidebar.button("Predict Music Genre Class 🛎️"):
     st.success(f"Predicted Music Genre 🧱: {predicted_genre_class}  → Means → {predicted_genre_name}")
     st.sidebar.header("`Prediction Result 🧵`")
     st.sidebar.success(f"Predicted Music Genre 🧱: {predicted_genre_class}  → Means → {predicted_genre_name}")
+
+
+#
+import time
+st.sidebar.header("`5- Info About The Author`")
+if st.sidebar.button('The Author 🧙'):
+    st.toast('Mohammed Salf Shaeerah 😎')
+    time.sleep(1)
+    st.toast('Data Scientist 🕵️')
+    time.sleep(1)
+    st.toast('The Work Have Been Done!', icon='🎉')
+
+#
+author_name = "Mohammed Salf Shaeerah"
+author_github = "https://github.com/Mo-Sa-Shaeerah"
+st.sidebar.markdown(f"Created by 🧠 [{author_name}]({author_github})")
