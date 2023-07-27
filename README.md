@@ -15,11 +15,23 @@
 
 # 🧐 1. Music Data Analysis <a name=data></a>
 
+A Plots About The Class[The Target] To Get Insights
+
+ <img src="Images/class.png" alt="Class" width="100%">
 
 
 # ⚖️ 2. Models That Used <a name=models></a>
+2.1- Random Forest 👉🏻 The best algorithm
 
+`Here is an evaluation about accuracy, performance & feature importance of Random Forest`
 
+ <img src="Images/rf.png" alt="RandomForest" width="100%">
+ 
+2.2- LGBM
+
+`Here is an evaluation about accuracy, performance & feature importance of LightGBM`
+
+ <img src="Images/lgbm.png" alt="LGBM" width="100%">
 
 
 # 🔰 3. Things Were'nt Add Any Value <a name=things></a>
@@ -33,3 +45,10 @@
 
 
 # 🧑‍🚀 5. Deployment Step <a name=streamlit></a>
+
+`A snippet pictures about the app 👇🏻`
+
+ <img src="Images/Screenshot1.png" alt="deployment" width="100%">
+ <img src="Images/Screenshot2.png" alt="deployment" width="100%">
+ <img src="Images/Screenshot3.png" alt="deployment" width="100%">
+ <img src="Images/Screenshot4.png" alt="deployment" width="100%">
