@@ -9,7 +9,7 @@
 1. [Music Data Analysis](#data)
 2. [Models That Used](#models)
 3. [Things weren't adding any value](#things)
-4. [Why The Acuuracy is around 60%?](#why)
+4. [Why Is The Acuuracy around 60%?](#why)
 5. [Deployment Step](#streamlit)
 6. [Lastly](#lastly)
 
@@ -37,13 +37,21 @@ A Plots About The Class[The Target] To Get Insights
 
 # 🔰 3. Things weren't adding any value <a name=things></a>
 
+I have tried lots of models, tools, and thinking outside the box to enhance the performance and ⬆ the accuracy. 
 
+Some examples include:
+- Deeplearning Models like DatRetClassifier
+- Using Optuna to optimize the parameters
+- Implementing normalization methods
+- Employing an oversampling strategy
 
+# 🤔 4. Why Is The Acuuracy around 60%? <a name=why></a>
 
-# 🤔 4. Why The Acuuracy is around 60%? <a name=why></a>
+The accuracy is still around 50-60% due to the following reasons:
 
-
-
+- I have dropped the categorical attribute instead of using label encoder
+- There is no correlation between data points and the class
+- Imbalanced classes, and so on
 
 # 🧑‍🚀 5. Deployment Step <a name=streamlit></a>
 
