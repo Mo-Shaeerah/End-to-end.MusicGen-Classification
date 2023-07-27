@@ -8,9 +8,10 @@
 # `Project Contents 📦`
 1. [Music Data Analysis](#data)
 2. [Models That Used](#models)
-3. [Things Were'nt Add Any Value](#things)
+3. [Things weren't adding any value](#things)
 4. [Why The Acuuracy is around 60%?](#why)
 5. [Deployment Step](#streamlit)
+6. [Lastly](#lastly)
 
 
 # 🧐 1. Music Data Analysis <a name=data></a>
@@ -34,7 +35,7 @@ A Plots About The Class[The Target] To Get Insights
  <img src="Images/lgbm.png" alt="LGBM" width="100%">
 
 
-# 🔰 3. Things Were'nt Add Any Value <a name=things></a>
+# 🔰 3. Things weren't adding any value <a name=things></a>
 
 
 
@@ -52,3 +53,7 @@ A Plots About The Class[The Target] To Get Insights
  <img src="Images/Screenshot2.png" alt="deployment" width="100%">
  <img src="Images/Screenshot3.png" alt="deployment" width="100%">
  <img src="Images/Screenshot4.png" alt="deployment" width="100%">
+
+# 🌜 6. Lastly <a name=lastly></a>
+
+`Give a try to my app` 👉🏻 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red.svg)](https://end-to-end-classification-by-mo-sa-shaeerah.streamlit.app/)
