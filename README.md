@@ -65,3 +65,5 @@ The accuracy is still around 50-60% due to the following reasons:
 # 🌜 6. Lastly <a name=lastly></a>
 
 `Give a try to my app` 👉🏻 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red.svg)](https://end-to-end-classification-by-mo-sa-shaeerah.streamlit.app/)
+
+[![Youtube Video](https://img.youtube.com/vi/LU80ixSVQ-c/0.jpg)](https://youtu.be/LU80ixSVQ-c?si=koPdALvQjMxaznpg)
